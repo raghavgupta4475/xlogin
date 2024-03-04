@@ -36,13 +36,13 @@ function App() {
           <form onSubmit={handleSubmit}>
             <label>
               Username:
-              <input type="text" name="username" required />
             </label>
+            <input type="text" name="username" required />
             <br />
             <label>
               Password:
-              <input type="password" name="password" required />
             </label>
+            <input type="password" name="password" required />
             <br />
 
             <button type="submit">Login</button>
